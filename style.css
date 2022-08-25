@@ -234,3 +234,21 @@ input:checked~.bubble::after {
     text-decoration: line-through;
     color: var(--grey);
 }
+
+@media (min-width: 300px) {
+
+    
+    
+
+    .todo-item {
+        position: absolute;
+        width: 363.2px;
+        
+    }
+    
+    .actions {
+        position: relative;
+        /* margin-left: 10%; */
+        right: 25px;
+    }
+}
