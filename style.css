@@ -157,6 +157,7 @@ input:checked~.bubble::after {
 }
 
 .create-todo input[type='submit'] {
+    -webkit-appearance: none
     display: block;
     width: 100%;
     font-size: 1.125rem;
