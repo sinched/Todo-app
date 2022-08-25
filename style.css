@@ -26,6 +26,8 @@
 input:not([type='radio']):not([type='checkbox']),
 button {
     appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     border: none;
     outline: none;
     background: none;
@@ -157,7 +159,7 @@ input:checked~.bubble::after {
 }
 
 .create-todo input[type='submit'] {
-    -webkit-appearance: none
+    /* -webkit-appearance: none; */
     display: block;
     width: 100%;
     font-size: 1.125rem;
