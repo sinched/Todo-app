@@ -244,14 +244,14 @@ input:checked~.bubble::after {
     
 
     .todo-item {
-        position: absolute;
-        width: 363.2px;
+        /* position: absolute; */
+        width: 100%;
         
     }
     
     .actions {
-        position: relative;
-        /* margin-left: 10%; */
+        position: absolute;
+        margin-left: 10%;
         right: 25px;
     }
 }
